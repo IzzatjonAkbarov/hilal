@@ -1,11 +1,11 @@
 import CustomCard from "@/app/main/LeftSide/customCard";
+import { Product } from "@/app/main/LeftSide/page";
 import {
   DownOutlined,
   LeftOutlined,
   MinusOutlined,
   PlusOutlined,
   RightOutlined,
-  ShoppingCartOutlined,
 } from "@ant-design/icons";
 import { Select } from "antd";
 import Link from "next/link";
@@ -48,7 +48,7 @@ const Page = async ({ params }: { params: Promise<{ card_id: string }> }) => {
               <div className="flex justify-center items-center flex-1">
                 <img
                   src={data.imgs}
-                  alt={data.ttitle}
+                  alt={data.title}
                   className="max-w-xs w-full object-contain"
                 />
               </div>
@@ -93,11 +93,11 @@ const Page = async ({ params }: { params: Promise<{ card_id: string }> }) => {
               {/* Delivery Info */}
               <div className="bg-[#E8F5E9] p-4 rounded-md mb-6 flex items-center">
                 <div className="w-8 h-6 bg-[#fff] rounded-full mr-3 flex items-center justify-center">
-                  <img src="/assets/icons/uzb.svg" alt="qwefet4regf" />
+                  <img src="/assets/icons/uzb.svg" alt="qwefset4regf" />
                 </div>
                 <div>
                   <span className="font-medium">
-                    O'zbekistonga yetkazib berish:
+                    O&apos;zbekistonga yetkazib berish:
                   </span>
                   <span className="ml-2">14 ish kuni</span>
                   <span className="ml-2 text-gray-600">(3000 won)</span>
@@ -155,7 +155,7 @@ const Page = async ({ params }: { params: Promise<{ card_id: string }> }) => {
         </div>
       </div>
       <div className="grid container1 grid-cols-4 gap-4 max-[950px]:grid-cols-3 max-[650px]:grid-cols-2 max-[440px]:grid-cols-1">
-        {data2?.slice(0, 4)?.map((value: any) => (
+        {data2?.slice(0, 4)?.map((value: Product) => (
           <CustomCard key={value.id} {...value} />
         ))}
       </div>

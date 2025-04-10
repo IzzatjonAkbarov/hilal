@@ -7,6 +7,9 @@ const Main = () => {
       <div className="flex flex-col gap-2 sticky top-0 max-[1024px]:hidden">
         <Aside />
       </div>
+      <div className=" flex-col gap-2 sticky top-0 max-[1024px]:flex hidden">
+        <Aside />
+      </div>
       <div className="bg-[#f4f4f4]">
         <LeftSide />
       </div>

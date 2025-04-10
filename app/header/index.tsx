@@ -4,7 +4,7 @@ import {
   MenuOutlined,
   SearchOutlined,
 } from "@ant-design/icons";
-("use-client");
+
 import Link from "next/link";
 
 const Header = () => {
