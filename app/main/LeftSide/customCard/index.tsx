@@ -18,7 +18,7 @@ const CustomCard = ({
   return (
     <Link href={`singleCard/${id}`}>
       <div>
-        <img src={imgs} alt="" />
+        <img src={imgs} alt="qaa" />
       </div>
       <div className="texts bg-white text-[14px] font-normal text-[#999] px-3">
         <h1>Qo'y bo'yin (muzlatilgan)</h1>
@@ -26,12 +26,12 @@ const CustomCard = ({
           <p className="flex items-center gap-1 text-black font-medium">
             {discount_price}
 
-            <img src="/assets/icons/w.svg" alt="" />
+            <img src="/assets/icons/w.svg" alt="wefdcsf" />
           </p>
           <p className="flex items-center line-through gap-1  font-medium py-1">
             {price}
 
-            <img src="/assets/icons/w2.svg" alt="" />
+            <img src="/assets/icons/w2.svg" alt="grfdcs" />
           </p>
         </div>
         <button className="flex items-center gap-1 py-2  rounded-lg bg-[#f4f4f4] justify-center hover:bg-[#019e7f] hover:text-white transition-all w-full">

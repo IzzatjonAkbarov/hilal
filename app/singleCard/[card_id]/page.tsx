@@ -93,7 +93,7 @@ const Page = async ({ params }: { params: Promise<{ card_id: string }> }) => {
               {/* Delivery Info */}
               <div className="bg-[#E8F5E9] p-4 rounded-md mb-6 flex items-center">
                 <div className="w-8 h-6 bg-[#fff] rounded-full mr-3 flex items-center justify-center">
-                  <img src="/assets/icons/uzb.svg" alt="" />
+                  <img src="/assets/icons/uzb.svg" alt="qwefet4regf" />
                 </div>
                 <div>
                   <span className="font-medium">

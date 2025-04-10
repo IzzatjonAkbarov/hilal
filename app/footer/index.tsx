@@ -3,13 +3,13 @@ const Footer = () => {
     <div className=" py-6  shadow-[0_0_4px_0_rgba(0,0,0,0.06)] bg-white">
       <div className="container1 flex items-start gap-10 justify-between  max-[800px]:flex-col">
         <div>
-          <img src="/assets/icons/logo.svg" alt="" />
+          <img src="/assets/icons/logo.svg" alt="afsdged" />
           <p className="text-[18px] font-medium">HilalMart © 2021</p>
           <p className="text-[15px]"> Barcha huquqlar kafolatlangan</p>
 
           <div className=" mt-3 flex items-center gap-2">
-            <img src="/assets/icons/playmarket.svg" alt="" />
-            <img src="/assets/icons/appstore.svg" alt="" />
+            <img src="/assets/icons/playmarket.svg" alt="efwerfwdc" />
+            <img src="/assets/icons/appstore.svg" alt="wdfcsfeewef" />
           </div>
         </div>
         <div className="flex flex-col gap-1">
